@@ -12,7 +12,7 @@ class Integrate(object):
         
     def simpson(self, a, b, f, n=100):
         if n & 1:
-            print ("Error: n is not a even number.")
+            print ("Error: n is zero which is not allowed")
             return 0.0
     
         h = float(b - a) / n

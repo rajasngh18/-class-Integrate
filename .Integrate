@@ -1,5 +1,5 @@
 class Integrate(object):
-# Here f is a function to be Integrated, b is final and a is initial point of limit of Definate Integral.
+#   Here f is a function to be Integrated, b is final and a is initial point of limit of Definate Integral.
 
     def trapezoid(self, a, b, f, n=100):
         h = float(b - a) / n
